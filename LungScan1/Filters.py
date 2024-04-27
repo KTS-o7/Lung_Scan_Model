@@ -171,7 +171,7 @@ def main():
                     cv2.imwrite('%s/5x5Mean/%s/%s/clahe5x5avg%s.jpg' %(destinationPath,mainfoldernames[j],subfoldernames[k],i), cl3)
 
           
-                    print("Image %s done for %s %s"%(destinationPath,mainfoldernames[j],subfoldernames[k],i))
+                    print("Image %s done for %s %s %s"%(i,destinationPath,mainfoldernames[j],subfoldernames[k]))
                     i=i+1       
     
     
